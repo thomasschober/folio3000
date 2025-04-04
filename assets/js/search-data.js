@@ -9,26 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/folio3000/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/folio3000/blog/";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/folio3000/pubs/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/folio3000/people/";
           },
         },{id: "post-a-post-with-plotly-js",
         
